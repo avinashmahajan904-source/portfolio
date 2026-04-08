@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Developer & Engineer</title>
+  <link rel="stylesheet" href="project2.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+
+  <nav class="nav">
+    <span class="nav-logo">dev.</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag fade-up">Available for work</p>
+      <h1 class="hero-title fade-up">
+        Hi, I'm <span class="highlight">Avinash.</span><br/>
+        I build things<br/>for the web.
+      </h1>
+      <p class="hero-sub fade-up">Full-stack Developer & Engineer crafting clean, performant, and elegant digital experiences.</p>
+      <div class="hero-cta fade-up">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+ 
+  <section class="about section" id="about">
+    <div class="container">
+      <span class="section-label">01 / About</span>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Crafting solutions,<br/>one line at a time.</h2>
+          <p>I'm a developer who loves turning complex problems into simple, beautiful, and intuitive code. With a passion for clean architecture and pixel-perfect UIs, I bring both technical depth and design sensibility to every project.</p>
+          <p>When I'm not coding, you'll find me exploring open-source projects, reading about system design, or hiking in the mountains.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num" data-target="3">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="20">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="10">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <span class="section-label">02 / Skills</span>
+      <h2 class="section-title">What I work with.</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⌨️</div>
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C / C++</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>React / Next.js</li>
+            <li>HTML & CSS</li>
+            <li>Tailwind CSS</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js / Express</li>
+            <li>REST APIs</li>
+            <li>PostgreSQL / MongoDB</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☁️</div>
+          <h3>Tools & Cloud</h3>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>AWS / Vercel</li>
+            <li>Linux / Bash</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="projects section" id="projects">
+    <div class="container">
+      <span class="section-label">03 / Projects</span>
+      <h2 class="section-title">Selected work.</h2>
+      <div class="projects-grid">
+ 
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <div class="project-info">
+            <h3>DevFlow</h3>
+            <p>A real-time collaborative code editor with syntax highlighting, live cursors, and room-based sessions.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>WebSockets</span>
+            </div>
+          </div>
+          <a href="#" class="project-link">↗</a>
+        </div>
+ 
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <div class="project-info">
+            <h3>Taskify API</h3>
+            <p>A RESTful task management API with JWT auth, role-based access control, and full CRUD operations.</p>
+            <div class="project-tags">
+              <span>Express</span><span>PostgreSQL</span><span>Docker</span>
+            </div>
+          </div>
+          <a href="#" class="project-link">↗</a>
+        </div>
+ 
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <div class="project-info">
+            <h3>PriceWatch</h3>
+            <p>An automated price tracker that scrapes e-commerce sites and notifies users via email on price drops.</p>
+            <div class="project-tags">
+              <span>Python</span><span>BeautifulSoup</span><span>AWS Lambda</span>
+            </div>
+          </div>
+          <a href="#" class="project-link">↗</a>
+        </div>
+ 
+        <div class="project-card">
+          <div class="project-num">04</div>
+          <div class="project-info">
+            <h3>Portfolio v2</h3>
+            <p>This very portfolio — built from scratch with vanilla HTML, CSS & JS with a focus on performance and aesthetics.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <a href="#" class="project-link">↗</a>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <span class="section-label">04 / Contact</span>
+      <div class="contact-inner">
+        <h2 class="section-title">Let's build<br/>something together.</h2>
+        <p>Have a project in mind, a role to fill, or just want to connect? My inbox is always open.</p>
+        <a href="mailto:alex@example.com" class="btn-primary">Say Hello →</a>
+        <div class="social-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed & Built by <strong>Alex</strong> · 2024</p>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
