@@ -39,16 +39,6 @@ ul {
   list-style: none;
 }
  
-body{
-  cursor:defalut;
-}
-body:has(a:hover) .cursor,
-body:has(button:hover) .cursor {
-  transform: translate(-50%, -50%) scale(2.5);
-  background: var(--accent);
-  opacity: 0.5;
-}
- 
 .nav {
   position: fixed;
   top: 0; left: 0; right: 0;
