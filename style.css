@@ -39,19 +39,9 @@ ul {
   list-style: none;
 }
  
-.cursor {
-  width: 12px;
-  height: 12px;
-  background: var(--accent);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 9999;
-  transition: transform 0.15s ease, background 0.2s ease;
-  transform: translate(-50%, -50%);
+body{
+  cursor:defalut;
 }
- 
 body:has(a:hover) .cursor,
 body:has(button:hover) .cursor {
   transform: translate(-50%, -50%) scale(2.5);
